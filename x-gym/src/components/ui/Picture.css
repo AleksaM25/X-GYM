@@ -1,0 +1,12 @@
+.picture img {
+  height: 80%;
+  width: 80%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .picture img {
+    width: 100%;
+    width: 100%;
+  }
+}

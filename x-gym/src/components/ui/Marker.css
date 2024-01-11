@@ -1,0 +1,31 @@
+#marker {
+  background-color: #222831;
+  max-width: 600px;
+  height: 100%;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+
+  border: 1px solid #f96d00;
+}
+
+#marker h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 5px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  #marker {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #marker h1 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,150 @@
+.service {
+  background: url("/public/img/main.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.naslov {
+  color: #f96d00;
+}
+
+.service h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.lorem p {
+  color: #fff;
+}
+
+.lorem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.overlayMain {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 10px;
+}
+
+.templateWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.template {
+  border: 3px solid #f96d00;
+  background-color: #393e46;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75);
+}
+
+.clanarina {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.template h1 {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.template h3 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.info {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.75); */
+}
+
+.info h1 {
+  color: #f96d00;
+}
+
+.info h2 {
+  color: #fff;
+}
+
+.info i {
+  color: #f96d00;
+}
+
+.text p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 800px) {
+  /* .templateWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .template {
+    width: 60%;
+    margin: 10px 0;
+  } */
+
+  .clanarina {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+  }
+
+  .lorem p {
+    color: #fff;
+  }
+
+  .lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
